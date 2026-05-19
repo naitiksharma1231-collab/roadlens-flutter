@@ -1,0 +1,58 @@
+name: roadlens
+description: RoadLens - PWD Audit Management System. A production-grade Flutter application for government infrastructure audits.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.0
+
+  # Design & UI
+  google_fonts: ^6.0.0
+  flutter_svg: ^2.0.0
+
+  # Charts & Analytics
+  fl_chart: ^0.65.0
+
+  # Responsive Design
+  responsive_builder: ^0.7.0
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.0.0
+  connectivity_plus: ^5.0.0
+
+  # Logging
+  logger: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: fonts/Roboto-Light.ttf
+          weight: 300
